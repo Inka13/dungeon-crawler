@@ -1,0 +1,122 @@
+
+* {
+  box-sizing: border-box;
+  }
+  body {
+    color:  #ecbf00;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: black;
+}
+#header {
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+  height: 9vh;
+}
+h1 {
+  font-family:  'Sedgwick Ave', cursive;
+  float: left;
+  width: 300px;
+  text-align: center;
+  margin: auto;
+  margin-top: 7px;
+  top: 0;
+}
+
+#level {
+  background: url('headerImages/player.png');
+  width: 60px;
+  height: 60px;
+  float: left;
+  border-radius: 50%;
+  border: 1px solid #ecbf00;
+  text-align: center;
+  margin-left: 10px;
+}
+#weapon {
+  width: 60px;
+  float: left;
+  background: #ecbf00;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid grey;
+  text-align: center;
+  margin-left: 10px;
+}
+
+
+#exp {
+  background: #006fc3;
+  display: inline-block;
+  border: 1px solid white;
+}
+.map-view {
+  top: 9vh;
+  width: 100%;
+  height: 91vh;
+  margin:auto;
+  position: relative;
+  overflow: hidden;
+  background: url('http://cornucopia3d.e-oncontent.com/storeItems/Objects/Interior/Realms_Art_Medieval_Dungeon_Interior_Vue_25_0_img.jpg?mod=1') no-repeat;
+  background-size: cover;
+  z-index: 0;
+}
+.map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 600px;
+  height: 450px;
+  overflow: visible;
+}
+.tile {
+  width: 30px;
+  height: 30px;
+  float: left;
+}
+#plImg {
+  position: relative;
+
+}
+#plImage {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  z-index: 5;
+  margin-top: -20px;
+  margin-left: -10px;
+  background: url('headerImages/knight.png');
+}
+.ending {
+  margin: auto;
+  font-size: 4rem;
+  text-align: center;
+  width: 100%;
+}
+#stats {
+  float:left;
+  width: 500px;
+ font-size: 0.7rem;
+}
+
+.props {
+  margin-left: 10px;
+  float:left;
+}
+.prop {
+  margin-top: 2px;
+  border: 1px solid rgba(0,0,0,0);
+}
+
+#playerHealth {
+  border: 1px solid white;
+  background: #53a910;
+ 
+}
+#enemyHealth {
+  width:0;
+  background:   #d21b29;
+  border: 1px solid white;
+}
